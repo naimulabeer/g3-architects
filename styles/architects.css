@@ -5,6 +5,19 @@
   font-family: "Lato", sans-serif;
   font-family: "Open Sans", sans-serif;
   font-family: "Work Sans", sans-serif;
+  max-width: 100%;
+}
+
+.btn-primary {
+  width: 140px;
+  height: 40px;
+  border-radius: 8px;
+  border: 0;
+  background: #ff900e;
+  padding: 10px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 header {
@@ -12,6 +25,7 @@ header {
   padding: 50px 240px;
 }
 
+/* nav styles */
 .nav-title {
   color: #131313;
   font-size: 2.8rem;
@@ -39,3 +53,29 @@ nav a {
   text-decoration: none;
   color: #424242;
 }
+/* nav styles */
+
+/* banner styles */
+.banner-content {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.banner-title {
+  color: #131313;
+  text-align: center;
+  margin-top: 35px 120px;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.banner-desc {
+  color: #727272;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+/* banner styles */
